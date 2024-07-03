@@ -4,7 +4,7 @@
 
 body {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 18.75rem 1fr;
     margin: 0;
     background-color: azure;
     min-height: 100vh;
@@ -14,36 +14,36 @@ body {
 aside {
     display: flex;
     flex-direction: column;
-    gap: 120px;
-    padding: 30px;
+    gap: 7.5rem;
+    padding: 1.9rem;
     padding-left: 0;
     background-color: white;
 }
 .logo {
-    margin-left: 90px;
-    height: 100px;
-    width: 95px;
+    margin-left: 5.6rem;
+    height: 6.25rem;
+    width: 5.9rem;
    
 }
 
 .main-nav {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.9rem;
+    cursor: pointer;
 }
 
 .icon {
-    height: 40px;
-    width: 50px;
+    height: 2.5rem;
+    width: 3.1rem;
     margin-left: 110px;
 }
 
 .icon4 {
-    height: 60px;
-    width: 70px;
-    margin-left: 100px;
-    background-size: 5px;
+    height: 3.75rem;
+    width: 4.37rem;
+    margin-left: 6.25rem;
     background-color: rgb(221, 237, 234);
-    border-top-left-radius: 15% 15%;
+    border-radius: 15%;
 }
 

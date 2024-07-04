@@ -4,11 +4,48 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: space-between;
+    align-items: start;
+    align-content: start;
+    padding: 1.9rem 1.9rem;
+    gap: 1.2rem;
 }
 .homeContainer {
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    padding: 2rem 1.5rem;
+    background-color: #2DA492;
+    border-radius: 0.5rem;
+    height: 320px;
+    width: 100%;
+}
+.board-icon {
+    display: flex;
+    width: 45px;
+    margin-top: 37px;
+    margin-left: 250px;
+}
+.homeContainer > .title {
+    font-size: 24px;
+    color: #fff;
+}
+.homeContainer > .text {
+    font-size: 1.2rem;
+    line-height: 1.3em;
+    margin-top: 10px;
+    color: #ECF3FF;
+}
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.board-picture {
+    width: 105px;
+    margin-right: -24px;
+    margin-top: -54px;
+}
+.fa {
+    color: #fff;
+    font-size: 22px;
 }

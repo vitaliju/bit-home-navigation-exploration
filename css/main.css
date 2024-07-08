@@ -6,8 +6,18 @@
     grid-template-columns: 1fr 1fr 1fr;
     align-items: start;
     align-content: start;
-    padding: 1.9rem 1.9rem;
-    gap: 1.2rem;
+    padding: 2.2rem 2.2rem;
+    gap: 2rem;
+}
+h1 {
+    font-size: 1.4rem;
+    color: black;
+}
+p {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    margin-top: 0.3rem;
+    color: #949494;
 }
 .homeContainer {
     display: flex;
@@ -16,6 +26,7 @@
     padding: 2rem 1.5rem;
     background-color: #2DA492;
     border-radius: 0.5rem;
+    box-shadow: rgba(174, 206, 201) 0px 20px 25px -5px;
     height: 320px;
     width: 100%;
 }
@@ -26,13 +37,13 @@
     margin-left: 250px;
 }
 .homeContainer > .title {
-    font-size: 24px;
+    font-size: 1.4rem;
     color: #fff;
 }
 .homeContainer > .text {
     font-size: 1.2rem;
     line-height: 1.3em;
-    margin-top: 10px;
+    margin-top: 0.3rem;
     color: #ECF3FF;
 }
 .bottom {
@@ -47,5 +58,5 @@
 }
 .fa {
     color: #fff;
-    font-size: 21px;
+    font-size: 23px;
 }

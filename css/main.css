@@ -39,23 +39,57 @@ p {
     margin-top: 0.3rem;
     color: #ECF3FF;
 }
-.bottom {
+.flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.board-icon {
-    display: flex;
+.flexForIcon {
     width: 45px;
-    margin-top: 37px;
     margin-left: 250px;
 }
-.board-picture {
+.board-icon {
+    margin-top: 37px;
+}
+.bottom > .dashboard {
     width: 105px;
     margin-right: -24px;
     margin-top: -44px;
 }
+.board-icon2 {
+    margin-top: 28px;
+}
+.bottom2 {
+    margin-right: -24px;
+    padding-top: 20px;
+}
+.bottom2 > .data {
+    width: 105px;
+}
+.board-icon3 {
+    margin-top: 41px;
+}
+.bottom2 > .users {
+    width: 169px;
+}
+
+.bottom2 > .real-time {
+    width: 150px;
+}
+.board-icon5 {
+    margin-top: 20px;
+}
+.bottom2 > .billing {
+    width: 152px;
+}
+
+.bottom2 > .campaigns {
+    width: 157px;
+} 
 .fa {
     color: black;
     font-size: 23px;
+}
+.fa:hover {
+    cursor: pointer;
 }

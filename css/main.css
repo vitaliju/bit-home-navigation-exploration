@@ -3,7 +3,7 @@
 }
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
     align-items: start;
     align-content: start;
     padding: 2.2rem 2.2rem;
@@ -30,10 +30,12 @@ p {
     width: 100%;
 }
 .homeContainer > .title {
+    display: flex;
     font-size: 1.4rem;
     color: #fff;
 }
 .homeContainer > .text {
+    display: flex;
     font-size: 1.2rem;
     line-height: 1.3em;
     margin-top: 0.3rem;
@@ -45,50 +47,50 @@ p {
     justify-content: space-between;
 }
 .flexForIcon {
-    width: 45px;
-    margin-left: 250px;
+    width: 2.8rem;
+    margin-left: 15.6rem;
 }
 .board-icon {
-    margin-top: 37px;
+    margin-top: 2.3rem;
 }
 .bottom > .dashboard {
     width: 105px;
-    margin-right: -24px;
-    margin-top: -44px;
+    margin-right: -1.5rem;
+    margin-top: -2.7rem;
 }
 .board-icon2 {
-    margin-top: 28px;
+    margin-top: 1.75rem;
 }
 .bottom2 {
-    margin-right: -24px;
-    padding-top: 20px;
+    margin-right: -1.5rem;
+    padding-top: 1.8rem;
 }
 .bottom2 > .data {
-    width: 105px;
+    width: 6rem;
 }
 .board-icon3 {
-    margin-top: 41px;
+    margin-top: 2.56rem;
 }
 .bottom2 > .users {
-    width: 169px;
+    width: 9.8rem;
 }
 
 .bottom2 > .real-time {
-    width: 150px;
+    width: 8.5rem;
 }
 .board-icon5 {
-    margin-top: 20px;
+    margin-top: 1.2rem;
 }
 .bottom2 > .billing {
-    width: 152px;
+    width: 8.8rem;
 }
 
 .bottom2 > .campaigns {
-    width: 157px;
+    width: 9.1rem;
 } 
 .fa {
     color: black;
-    font-size: 23px;
+    font-size: 1.35rem;
 }
 .fa:hover {
     cursor: pointer;

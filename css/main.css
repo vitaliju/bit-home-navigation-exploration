@@ -1,97 +1,98 @@
 .main {
-    background-color: azure;
+  background-color: azure;
 }
 .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
-    align-items: start;
-    align-content: start;
-    padding: 2.2rem 2.2rem;
-    gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  align-items: start;
+  align-content: start;
+  padding: 2.2rem 2.2rem;
+  gap: 2rem;
+  margin: 0 auto;
 }
 h1 {
-    font-size: 1.4rem;
-    color: black;
+  font-size: 1.4rem;
+  color: black;
 }
 p {
-    font-size: 1.2rem;
-    line-height: 1.3rem;
-    margin-top: 0.3rem;
-    color: #949494;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  margin-top: 0.3rem;
+  color: #949494;
 }
 .homeContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2rem 1.5rem;
-    background-color: #fff;
-    border-radius: 0.5rem;
-    height: 320px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  height: 320px;
+  width: 100%;
 }
 .homeContainer > .title {
-    display: flex;
-    font-size: 1.4rem;
-    color: #fff;
+  display: flex;
+  font-size: 1.4rem;
+  color: #fff;
 }
 .homeContainer > .text {
-    display: flex;
-    font-size: 1.2rem;
-    line-height: 1.3em;
-    margin-top: 0.3rem;
-    color: #ECF3FF;
+  display: flex;
+  font-size: 1.2rem;
+  line-height: 1.3em;
+  margin-top: 0.3rem;
+  color: #ecf3ff;
 }
 .flex {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .flexForIcon {
-    width: 2.8rem;
-    margin-left: 15.6rem;
+  width: 2.8rem;
+  margin-left: 15.6rem;
 }
 .board-icon {
-    margin-top: 2.3rem;
+  margin-top: 2.3rem;
 }
 .bottom > .dashboard {
-    width: 105px;
-    margin-right: -1.5rem;
-    margin-top: -2.7rem;
+  width: 105px;
+  margin-right: -1.5rem;
+  margin-top: -2.7rem;
 }
 .board-icon2 {
-    margin-top: 1.75rem;
+  margin-top: 1.75rem;
 }
 .bottom2 {
-    margin-right: -1.5rem;
-    padding-top: 1.8rem;
+  margin-right: -1.5rem;
+  padding-top: 1.8rem;
 }
 .bottom2 > .data {
-    width: 6rem;
+  width: 6rem;
 }
 .board-icon3 {
-    margin-top: 2.56rem;
+  margin-top: 2.56rem;
 }
 .bottom2 > .users {
-    width: 9.8rem;
+  width: 9.8rem;
 }
 
 .bottom2 > .real-time {
-    width: 8.5rem;
+  width: 8.5rem;
 }
 .board-icon5 {
-    margin-top: 1.2rem;
+  margin-top: 1.2rem;
 }
 .bottom2 > .billing {
-    width: 8.8rem;
+  width: 8.8rem;
 }
 
 .bottom2 > .campaigns {
-    width: 9.1rem;
-} 
+  width: 9.1rem;
+}
 .fa {
-    color: black;
-    font-size: 1.35rem;
+  color: black;
+  font-size: 1.35rem;
 }
 .fa:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
